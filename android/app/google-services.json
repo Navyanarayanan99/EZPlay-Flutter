@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "651768738003",
+    "project_id": "ezplay-6e011",
+    "storage_bucket": "ezplay-6e011.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651768738003:android:8e66510eef2f6db5cea426",
+        "android_client_info": {
+          "package_name": "com.example.ezplay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz9zZm6m9b5LTvCrDMh19w_zGqMSHyywE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
