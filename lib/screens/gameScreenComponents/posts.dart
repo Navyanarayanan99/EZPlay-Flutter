@@ -13,9 +13,7 @@ class _PostsState extends State<Posts> {
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Column(
-        children: [
-          HomePosts()
-        ],
+        children: [HomePosts()],
       ),
     );
   }

@@ -1,3 +1,4 @@
+import 'package:ezplay/screens/edit_profile.dart';
 import 'package:ezplay/toptabs/user_about_screen.dart';
 import 'package:ezplay/toptabs/user_tournament_screen.dart';
 import 'package:flutter/material.dart';
@@ -42,6 +43,7 @@ class _ViewProfileScreenState extends State<ViewProfileScreen>
                       onPressed: () {
                         Navigator.pop(context);
                       },
+                      
                       icon: Icon(
                         Icons.arrow_back,
                         color: Colors.white,
@@ -49,7 +51,9 @@ class _ViewProfileScreenState extends State<ViewProfileScreen>
                       ),
                     ),
                     GestureDetector(
-                        onTap: () {},
+                        onTap: () {
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => EditProfile()));
+                        },
                         child: Image(
                           image: AssetImage('images/user-avatar.png'),
                           height: 30,

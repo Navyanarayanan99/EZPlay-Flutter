@@ -88,8 +88,14 @@ class _TabbarVideosScreenState extends State<TabbarVideosScreen> {
           Container(
             height: 300,
             width: 400,
-            decoration: BoxDecoration(color: Colors.white,),
-            child: Icon(Icons.play_circle_rounded, size: 50,color: const Color.fromARGB(255, 226, 43, 30),),
+            decoration: BoxDecoration(
+              color: Colors.white,
+            ),
+            child: Icon(
+              Icons.play_circle_rounded,
+              size: 50,
+              color: const Color.fromARGB(255, 226, 43, 30),
+            ),
           ),
           SizedBox(
             height: 20,

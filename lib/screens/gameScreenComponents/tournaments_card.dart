@@ -92,25 +92,40 @@ class _TournamentsCardState extends State<TournamentsCard> {
             ),
             Row(
               children: [
-                Icon(Icons.emoji_events, color: Colors.grey,),           
-               Text('1,00,000', style: TextStyle(color: Colors.grey, fontSize: 16),),
-               SizedBox(
-                  width: 10,
+                Icon(
+                  Icons.emoji_events,
+                  color: Colors.grey,
                 ),
-                 Icon(Icons.phone_android, color: Colors.grey,),           
-               Text('Mobile', style: TextStyle(color: Colors.grey, fontSize: 16)),
+                Text(
+                  '1,00,000',
+                  style: TextStyle(color: Colors.grey, fontSize: 16),
+                ),
                 SizedBox(
                   width: 10,
                 ),
-                 Icon(Icons.people, color: Colors.grey,),           
-               Text('Duo', style: TextStyle(color: Colors.grey, fontSize: 16)),
+                Icon(
+                  Icons.phone_android,
+                  color: Colors.grey,
+                ),
+                Text('Mobile',
+                    style: TextStyle(color: Colors.grey, fontSize: 16)),
                 SizedBox(
                   width: 10,
                 ),
-                 Icon(Icons.emoji_events, color: Colors.grey,),           
-               Text('100', style: TextStyle(color: Colors.grey, fontSize: 16)),
-               ],
-               
+                Icon(
+                  Icons.people,
+                  color: Colors.grey,
+                ),
+                Text('Duo', style: TextStyle(color: Colors.grey, fontSize: 16)),
+                SizedBox(
+                  width: 10,
+                ),
+                Icon(
+                  Icons.emoji_events,
+                  color: Colors.grey,
+                ),
+                Text('100', style: TextStyle(color: Colors.grey, fontSize: 16)),
+              ],
             )
           ],
         ),

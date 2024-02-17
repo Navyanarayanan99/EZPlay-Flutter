@@ -20,13 +20,13 @@ class _FeaturedTournementState extends State<FeaturedTournement> {
             Container(
               height: 140,
               decoration: BoxDecoration(
-                gradient: LinearGradient(
-                                  begin: Alignment.topLeft,
-                                  end: Alignment.bottomRight,
-                                  colors: [
-                                    Color.fromARGB(255, 250, 153, 26),
-                                    Color.fromARGB(210, 246, 89, 4)
-                                  ]),   
+                  gradient: LinearGradient(
+                      begin: Alignment.topLeft,
+                      end: Alignment.bottomRight,
+                      colors: [
+                        Color.fromARGB(255, 250, 153, 26),
+                        Color.fromARGB(210, 246, 89, 4)
+                      ]),
                   borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(10),
                       topRight: Radius.circular(10))),
@@ -41,7 +41,6 @@ class _FeaturedTournementState extends State<FeaturedTournement> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-              
                 Text(
                   'Duo Premium',
                   style: TextStyle(
@@ -49,7 +48,9 @@ class _FeaturedTournementState extends State<FeaturedTournement> {
                       fontSize: 20,
                       fontWeight: FontWeight.w500),
                 ),
-                 SizedBox(width: 25,),
+                SizedBox(
+                  width: 25,
+                ),
                 Icon(
                   Icons.people,
                   size: 30,
@@ -59,7 +60,9 @@ class _FeaturedTournementState extends State<FeaturedTournement> {
             ),
             Row(
               children: [
-                SizedBox(width: 20,),
+                SizedBox(
+                  width: 20,
+                ),
                 Icon(
                   Icons.schedule,
                   color: Colors.grey,
@@ -106,45 +109,47 @@ class _FeaturedTournementState extends State<FeaturedTournement> {
                       color: Colors.grey,
                       fontSize: 18,
                     )),
-                    SizedBox(width: 2.5,),
+                SizedBox(
+                  width: 2.5,
+                ),
                 Text(
                   'Entry Fee',
                   style: TextStyle(color: Colors.grey, fontSize: 18),
                 ),
               ],
             ),
-          Row(
-  mainAxisAlignment: MainAxisAlignment.spaceAround, 
-  children: [
-
-    Row(
-      children: [
-        Icon(
-          Icons.group,
-          color: Colors.grey,
-        ),
-        Text(
-          '40/50',
-          style: TextStyle(color: Colors.white, fontSize: 20),
-        ),
-      ],
-    ),
-          SizedBox(width: 2,),
-    Row(
-      children: [
-        Icon(
-          Icons.currency_exchange_outlined,
-          color: Colors.grey,
-        ),
-        Text(
-          '200',
-          style: TextStyle(color: Colors.white, fontSize: 20),
-        ),
-      ],
-    ),
-  ],
-),
-
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Row(
+                  children: [
+                    Icon(
+                      Icons.group,
+                      color: Colors.grey,
+                    ),
+                    Text(
+                      '40/50',
+                      style: TextStyle(color: Colors.white, fontSize: 20),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  width: 2,
+                ),
+                Row(
+                  children: [
+                    Icon(
+                      Icons.currency_exchange_outlined,
+                      color: Colors.grey,
+                    ),
+                    Text(
+                      '200',
+                      style: TextStyle(color: Colors.white, fontSize: 20),
+                    ),
+                  ],
+                ),
+              ],
+            ),
             SizedBox(
               height: 20,
             ),

@@ -35,8 +35,7 @@ class _LoginScreenState extends State<LoginScreen> {
             padding: const EdgeInsets.fromLTRB(10, 0, 30, 0),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment
-                  .start, // Align children to the start (left)
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
                   'Log in',
@@ -117,7 +116,9 @@ class _LoginScreenState extends State<LoginScreen> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                  builder: (context) => OtpScreen(verificationId: verificationId,)));
+                                  builder: (context) => OtpScreen(
+                                        verificationId: verificationId,
+                                      )));
                         },
                         codeAutoRetrievalTimeout: (String verificationId) {},
                         phoneNumber: phoneController.text.toString(),
