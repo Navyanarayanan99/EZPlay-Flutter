@@ -12,15 +12,16 @@ class TextInputField extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Padding(padding: EdgeInsets.fromLTRB(10, 10, 0, 10)),
-        //SizedBox(height: 10),
         Text(
           labelText,
-          style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.w300),
+          style: TextStyle(
+              color: Colors.white, fontSize: 16, fontWeight: FontWeight.w300),
         ),
         TextFormField(
           decoration: InputDecoration(
             hintText: 'Type Here',
-            hintStyle: TextStyle(color: const Color.fromARGB(255, 126, 126, 126)),
+            hintStyle:
+                TextStyle(color: const Color.fromARGB(255, 126, 126, 126)),
             filled: true,
             fillColor: Color.fromARGB(255, 33, 32, 32),
             border: OutlineInputBorder(

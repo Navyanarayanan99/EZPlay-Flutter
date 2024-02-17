@@ -108,9 +108,10 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.explore_outlined,
+              Icons.shopping_bag_sharp,
+              size: 30,
             ),
-            label: 'Game',
+            label: '',
             backgroundColor: Colors.black,
           ),
           BottomNavigationBarItem(

@@ -12,7 +12,7 @@ class _GameCategoriesState extends State<GameCategories> {
   final gameItem = [
     Container(
       width: 130,
-     padding: EdgeInsets.fromLTRB(10, 110, 0, 20),
+      padding: EdgeInsets.fromLTRB(10, 110, 0, 20),
       decoration: BoxDecoration(
           gradient: LinearGradient(
               begin: Alignment.topLeft,
@@ -30,7 +30,7 @@ class _GameCategoriesState extends State<GameCategories> {
     ),
     Container(
       width: 130,
-     padding: EdgeInsets.fromLTRB(10, 110, 0, 20),
+      padding: EdgeInsets.fromLTRB(10, 110, 0, 20),
       decoration: BoxDecoration(
           gradient: LinearGradient(
               begin: Alignment.topLeft,
@@ -48,7 +48,7 @@ class _GameCategoriesState extends State<GameCategories> {
     ),
     Container(
       width: 130,
-     padding: EdgeInsets.fromLTRB(10, 110, 0, 20),
+      padding: EdgeInsets.fromLTRB(10, 110, 0, 20),
       decoration: BoxDecoration(
           gradient: LinearGradient(
               begin: Alignment.topLeft,
@@ -66,7 +66,7 @@ class _GameCategoriesState extends State<GameCategories> {
     ),
     Container(
       width: 130,
-     padding: EdgeInsets.fromLTRB(10, 110, 0, 20),
+      padding: EdgeInsets.fromLTRB(10, 110, 0, 20),
       decoration: BoxDecoration(
           gradient: LinearGradient(
               begin: Alignment.topLeft,
